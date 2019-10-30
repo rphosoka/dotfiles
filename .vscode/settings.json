@@ -1,0 +1,88 @@
+{
+	/*
+	見た目系
+	*/
+	// カラーテーマ
+	"workbench.colorTheme": "Monokai Dimmed",
+	// アイコン
+	"workbench.iconTheme": "vscode-icons",
+	"terminal.integrated.rendererType": "dom",
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.editor.tabCloseButton": "off",
+	"workbench.startupEditor": "none",
+	"workbench.editor.openPositioning": "first",
+	"workbench.activityBar.visible": false,
+	"workbench.editor.highlightModifiedTabs": true,
+	"terminal.integrated.copyOnSelection": true,
+	"workbench.list.automaticKeyboardNavigation": false,
+	"explorer.openEditors.visible": 0,
+	"workbench.editor.showTabs": true,
+	"workbench.editor.enablePreview": true,
+	"workbench.editor.enablePreviewFromQuickOpen": true,
+	/*
+	エディタ系
+	*/
+	"editor.tabSize": 4,
+	"editor.fontSize": 14,
+	// 開いたファイルの設定に基づいて、タブサイズ等が自動で設定される
+	"editor.detectIndentation": false,
+	// 単語間のスペースを表示する
+	"editor.renderWhitespace": "all",
+	// タブ文字の代わりにスペースを挿入する
+	"editor.insertSpaces": false,
+	// 折り返す
+	"editor.wordWrap": "on",
+	// 文字数のライン表示
+	"editor.rulers": [
+		80,
+		120
+	],
+	// 検索除外対象のディレクトリ
+	"search.exclude": {
+		"**/bower_components": true,
+		"**/vendor": true,
+		"**/env": true,
+		"tags": true,
+		"**/.svn": true,
+		"**/.git": true,
+		"**/.DS_Store": true
+	},
+	// ファイル監視から除外するファイル
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/*/**": true,
+		"**/.svn/**": true,
+	},
+	// 保存時オートフォーマット
+	"editor.formatOnSave": true,
+	// ミニマップ表示
+	"editor.minimap.enabled": false,
+	/*
+	ファイル系
+	*/
+	"files.eol": "\n",
+	// 自動エンコード
+	"files.autoGuessEncoding": false,
+	// 保存時末尾スペース削除
+	"files.trimTrailingWhitespace": true,
+	/*
+	警告系
+	*/
+	// ファイルのドラッグ＆ドロップ時
+	"explorer.confirmDragAndDrop": true,
+	// ファイルの削除時
+	"explorer.confirmDelete": true,
+	/*
+	拡張機能設定
+	*/
+	// vscodevim
+	// システムのclipboardにコピー
+	"vim.useSystemClipboard": true,
+	// 検索に:を入れる
+	"vim.cmdLineInitialColon": true,
+	"vim.hlsearch": true,
+	"vim.easymotion": true,
+	// 諸々のctrlキーを使った操作が有効になる
+	"vim.useCtrlKeys": true,
+}
