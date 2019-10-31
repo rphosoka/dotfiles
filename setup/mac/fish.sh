@@ -22,3 +22,6 @@ brew install ghq
 
 # add fisher plugin
 ./fish_add_plugin.sh
+
+# add link
+./link.sh
