@@ -1,5 +1,6 @@
 #!/bin/bash
 
-DOTFILES_PATH=~/dotfiles
+cd `dirname $0`
 
-ln -nfs $DOTFILES_PATH/setup/mac/config.fish ~/.config/fish/config.fish
+ln -nfs $PWD/config.fish ~/.config/fish/config.fish
+ln -nfs $PWD/.vimrc ~/.vimrc
